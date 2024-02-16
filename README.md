@@ -22,3 +22,5 @@ Name; Year; Rating; Price Range; Winery; Winery Description; Country; Region; Ca
 
 "Winery; Country; Region; Grapes; Wine Style;" are the "Fundamentals" - not really important for each sample, but very useful for upcoming analysis to find clusters of preferences.
 
+### Feature to be added
+Since the [Airflow Project](https://github.com/trashpanda-ai/In-Vino-Veritas) to scrape vivino allows a more efficient way to obtain all the necessary information, we will include some of its logic to collect the factual information based on wine name and vintage, which then only needs to be enriched by subjective personal notes.
